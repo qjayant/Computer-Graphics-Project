@@ -37,7 +37,7 @@
                 <li>Coordinating the coordinates of various objects in my project became a major hurdle. Aligning their positions accurately while accounting for differences in scales and rotations demanded meticulous attention to detail</li>
             </ul>
         </div>
-
+      
         <div class="Overcomings-container">
             <h2 class="Overcomings-heading">Project Overcomings</h2>
             <ul class="Overcomings-text">
@@ -55,7 +55,29 @@
                 <li><a href="https://www.shutterstock.com/video/clip-3406099267-prow-container-loaded-foredeck-ship-underway-bulbous" target="_blank">Ship Images on shutterstock</a></li>
             </ul>
         </div>
+        <button class="scroll-button left-button">&#10094;</button>
+        <button class="scroll-button right-button">&#10095;</button>
+        
         
     </div>
+    <script>document.addEventListener('DOMContentLoaded', function () {
+        const container = document.querySelector('.container');
+        const scrollDistance = 300; // Adjust this value according to your needs
+    
+        document.querySelector('.left-button').addEventListener('click', function () {
+            container.scrollBy({
+                left: -scrollDistance,
+                behavior: 'smooth'
+            });
+        });
+    
+        document.querySelector('.right-button').addEventListener('click', function () {
+            container.scrollBy({
+                left: scrollDistance,
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
 </body>
 </html>
