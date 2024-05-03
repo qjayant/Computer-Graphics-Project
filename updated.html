@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="updated.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h1>PIXEL PIONEERS</h1>
+    </section>
+    <section>
+        <div>
+            <h2>Project Description</h2>
+            <p>Explore the dynamic world of computer graphics with our project, aiming to showcase fundamental transformations: translation, scaling, and rotation. Through intuitive visual demonstrations, users delve into the core concepts of transforming objects in digital space. Witness how translation seamlessly shifts objects across coordinates, scaling alters their size with precision, and rotation brings motion and orientation.</p>
+        </div>
+    </section>
+    
+    <section>
+        <h1>Project Objective</h1>
+        <ul>
+            <li>Rotating the blades of windmill</li>
+            <li>POV of ship which translates and scales with time</li>
+            <li>The translation of apple</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h1>Project Challenges</h1>
+        <ul>
+            <li>Implementing both translation and scaling on an object proved to be a challenging task, requiring meticulous coordination between the transformations to ensure accurate positioning and sizing relative to the project's specifications.</li>
+            <li>Rendering one animation while simultaneously rendering another posed a significant challenge in the project.</li>
+            <li>Coordinating the coordinates of various objects in my project became a major hurdle. Aligning their positions accurately while accounting for differences in scales and rotations demanded meticulous attention to detail.</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h1>Project Overcomings</h1>
+        <ul>
+            <li>Documentation of Canvas has been used extensively while building the project.</li>
+            <li>Various resources from the web have supplemented our ideas.</li>
+            <li>Dummy objects have been used to trace the accurate coordinates of various elements.</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h1>Inspiration</h1>
+        <ul>
+            <li><a href="https://www.york.ac.uk/physics-engineering-technology/about/newtons-apple-tree/" target="_blank">School of Physics, University of YORK</a></li>
+            <li><a href="https://www.youtube.com/watch?v=8b5BaUZaDYo" target="_blank">Isaac Newton and the Apple tree</a></li>
+            <li><a href="https://www.shutterstock.com/video/clip-3406099267-prow-container-loaded-foredeck-ship-underway-bulbous" target="_blank">Ship Images on shutterstock</a></li>
+        </ul>
+    </section>
+
+    <script>
+        window.addEventListener("wheel", function(event) {
+            if (event.deltaY > 0) {
+                window.scrollBy({
+                    left: 1260,
+                    behavior: 'smooth'
+                });
+            } else {
+                window.scrollBy({
+                    left: -1260,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    </script>
+</body>
+</html>
