@@ -6,7 +6,7 @@ body {
 }
 
 
-..container {
+.container {
     text-align: center;
     max-width: 850px;
     margin: 0 auto;
@@ -29,7 +29,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-..container > div {
+.container > div {
     width: 1000px;
     margin-top: 50px;
     padding: 150px 10px;
@@ -41,14 +41,14 @@ body {
 }
 
 
-..container > div h2 {
+.container > div h2 {
     font-size: 50px;
     color: rgb(70, 130, 180);
     margin-top: 20px;
 }
 
 
-..container > div p {
+.container > div p {
     font-size: 22px;
     color: rgb(70, 70, 70);
     margin-top: 10px;
@@ -56,12 +56,12 @@ body {
 }
 
 
-..container > div ul {
+.container > div ul {
     list-style-type: disc; 
     padding: 0;
 }
 
-..container > div ul li {
+.container > div ul li {
     font-size: 18px;
     color: rgb(70, 70, 70);
     margin-top: 10px;
@@ -69,12 +69,12 @@ body {
 }
 
 
-..container > div ul li a {
+.container > div ul li a {
     color: rgb(39, 174, 96);
     text-decoration: none;
 }
 
-..container > div ul li a:hover {
+.container > div ul li a:hover {
     text-decoration: underline;
 }
 
