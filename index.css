@@ -131,8 +131,8 @@ section h2 {
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
-    width: 200px; /* Adjust image width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 200px; 
+    height: auto; 
 }
 
 .row p {
